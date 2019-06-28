@@ -1,0 +1,294 @@
+/*************
+gris oscuro= #1D252C
+gris claro= #626262
+background gris= #1B2721
+celeste= #026FFF
+*************/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 35px;
+    line-height:1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+}
+
+h1 strong{
+    color: #026FFF;
+}
+
+h2{
+  color: #026FFF;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.hero{
+    height:300px;
+    background-color: #1B2721;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-image{
+  object-fit: cover;
+}
+
+.portfolio{
+    background: #FAFAFA;
+    padding: 20px 0;
+}
+
+
+.project{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.project .project-title{
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.project .project-details{
+    width: 450px;
+    flex-shrink: 0;
+}
+.project .project-imageContainer{
+    width: 400px;
+}
+.project .project-imageContainer .project-image{
+  width: 390px;
+}
+
+.project-type,
+.project-date,
+.project-url{
+  margin: 10px 0;
+}
+
+.develop{
+  color: #6200ea
+}
+.marketing{
+  color:#c51162;
+}
+
+
+.project-url-a{
+  color: #056fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+.project-description{
+  font-size: 20px;
+}
+
+.project strong{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.header{
+    background-color: #1B2721;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure{
+  margin: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+.header a{
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+figure.logo{
+  margin: 5px 0;
+}
+
+.logo .img-logo{
+  border-radius: 50%;
+}
+.footer{
+  background-color: #1B2721;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer img{
+  vertical-align: middle;
+}
+.footer a{
+  color: white;
+}
+
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.event-list-title{
+  margin-left: 20px
+}
+
+.event{
+  margin: 10px 30px;
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #f4fbff;
+}
+
+.event img{
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+.event-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description{
+  text-align: left;
+}
+
+.event-url{
+  color: #056fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+.contact{
+  background: #056fff;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.social{
+  margin: 0 auto;
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  margin: 0 10px;
+}
+
+.social-link.twitter{
+  background-image: url("../images/twitter.svg");
+}
+
+.social-link.facebook{
+  background-image: url("../images/facebook.svg");
+}
+
+.social-link.github{
+  background-image: url("../images/github.svg");
+}
+
+.social-link.instagram{
+  background-image: url("../images/instagram.svg");
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+@media only screen and (min-width: 1500px) {
+  .project{
+      padding: 20px;
+  }
+  .project .project-details{
+      width: 600px;
+      flex-shrink: 0;
+  }
+  .project .project-imageContainer{
+      width: 600px;
+  }
+  .project .project-imageContainer .project-image{
+    width: 550px;
+  }
+
+  .event{
+    width: 600px;
+  }
+  .event img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
+}
