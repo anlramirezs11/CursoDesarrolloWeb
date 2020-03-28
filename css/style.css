@@ -193,11 +193,11 @@ figure.logo {
 }
 
 .footer-empresa-img {
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 .footer-empresa-img:hover {
-  transform: scale(1.2) rotate(20deg); 
+  transform: scale(1.2) rotate(20deg);
 }
 
 .footer a {
@@ -247,11 +247,11 @@ figure.logo {
   border-radius: 5px;
 }
 
-.course-list{
+.course-list {
   display: flex;
   flex-wrap: wrap;
 }
-.course-list-title{
+.course-list-title {
   margin-left: 20px;
 }
 
@@ -265,19 +265,19 @@ figure.logo {
 
 .course img {
   width: 250px;
-  height: 200px;
+  height: 180px;
   object-fit: cover;
 }
+
 .course-detail {
-  margin: 20px;
+  margin: 0 20px;
   margin-top: -40px;
-  background-color: #ffffff;
+  background-color: #f8b195;
   position: relative;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   border-radius: 5px;
 }
-
 
 .contact {
   background: #c06c84;
@@ -297,13 +297,12 @@ figure.logo {
   height: 50px;
   background-size: 50px;
   margin: 0 10px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .social-link:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
-
 
 .social-link.twitter {
   background-image: url("../images/twitter.svg");
@@ -319,6 +318,23 @@ figure.logo {
 
 .social-link.instagram {
   background-image: url("../images/instagram.svg");
+}
+
+.curriculum {
+  background-image: url("../images/curriculum.svg");
+  display: scroll;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
+  margin: 0 10px;
+  transition: all 0.5s ease;
+}
+
+.curriculum:hover {
+  transform: scale(1.5);
 }
 
 .container {
