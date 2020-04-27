@@ -19,7 +19,7 @@ h6 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1.5;
   letter-spacing: -0.2px;
   color: white;
@@ -40,7 +40,7 @@ h2 {
 }
 .hero {
   padding-top: 70px;
-  height: 300px;
+  height: 200px;
   background-color: #6c5b7b;
   display: flex;
   align-items: center;
@@ -48,6 +48,8 @@ h2 {
 }
 
 .hero-image {
+  height: 200px;
+  width: 300px;
   object-fit: cover;
 }
 
@@ -338,7 +340,7 @@ figure.logo {
 }
 
 .container {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
@@ -348,6 +350,25 @@ figure.logo {
 }
 
 @media only screen and (min-width: 1500px) {
+  .container {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .hero {
+    padding-top: 70px;
+    height: 300px;
+  }
+  
+  .hero-image {
+    height: 300px;
+    width: 500px;
+  }
+  
+
   .project {
     padding: 20px;
   }
