@@ -176,6 +176,7 @@ figure {
   display: flex;
   align-items: center;
   padding: 0 15px;
+  font-size: 25px;
 }
 figure.logo {
   margin: 5px 0;
@@ -370,6 +371,10 @@ figure.logo {
   .hero-image {
     height: 300px;
     width: 500px;
+  }
+
+  .header a {
+    font-size: 15px;
   }
 
   .project {
