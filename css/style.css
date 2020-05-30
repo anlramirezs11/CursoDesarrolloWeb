@@ -178,6 +178,7 @@ figure {
   padding: 0 15px;
   font-size: 25px;
 }
+
 figure.logo {
   margin: 5px 0;
 }
@@ -352,6 +353,103 @@ figure.logo {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+
+.container {
+  width: 70%;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.hero {
+  padding-top: 70px;
+  height: 300px;
+}
+
+.hero-image {
+  height: 300px;
+  width: 500px;
+}
+
+.header a {
+  font-size: 15px;
+}
+
+.project {
+  padding: 40px;
+  background: white;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.project .project-details {
+  width: 400px;
+  flex-shrink: 0;
+}
+.project .project-imageContainer {
+  width: 400px;
+}
+.project .project-imageContainer .project-image {
+  width: 400px;
+  text-align: center;
+}
+
+.event {
+  width: 400px;
+}
+.event img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  .header a {
+    font-size: 15px;
+  }
+
+  .project {
+    padding: 40px;
+    background: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .project .project-details {
+    width: 500px;
+    flex-shrink: 0;
+  }
+  .project .project-imageContainer {
+    width: 400px;
+  }
+  .project .project-imageContainer .project-image {
+    width: 400px;
+    text-align: center;
+  }
+
+  .event {
+    width: 400px;
+  }
+  .event img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
